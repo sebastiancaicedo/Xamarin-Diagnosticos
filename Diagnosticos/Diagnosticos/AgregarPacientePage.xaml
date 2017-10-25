@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diagnosticos.AgregarPacientePage">
+
+    <StackLayout Orientation="Vertical">
+        <Entry x:Name="entryNombre" Placeholder="Nombre"></Entry>
+        <Entry x:Name="entryApellido" Placeholder="Apellido"></Entry>
+        <Entry x:Name="entryDiagnostico" Placeholder="Diagnostico Inicial"></Entry>
+        <Button Text="Aceptar" Clicked="Terminar"></Button>
+    </StackLayout>
+</ContentPage>
